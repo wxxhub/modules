@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>在线客服</title>
+        <link type="text/css" rel="styleSheet"  href="/static/css/index.css" />
+        <!-- <script type="text/ecmascript" src="/static/js/index.js"></script> -->
+    </head>
+    <body>
+        <div class="main">
+            <div class="title">
+                <h3>在线客服</h3>
+            </div>
+            <div class="chat_box">
+                <table>
+                    <tr>
+                        <th>
+                            <img src="/static/image/service.jpg" class="server_image">
+                        </th>
+                        <th>
+                            <div class="message">
+                                您好，很高兴为您服务，请问有什么可以帮助您的？
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+                <!-- <table id="server_table">
+                    <tr>
+                        <th>
+                            <div class="message">
+                                我要投诉啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！！！
+                            </div>
+                        </th>
+                        <th>
+                            <img src="/static/image/user.jpg" class="user_image">
+                        </th>
+                    </tr>
+                </table> -->
+            </div>
+            <div class="submit_box">
+                <form action="/submit_problem/"  method="POST">
+                    {% csrf_token %} 
+                    <table id = "table1"  cellspacing="10">
+                        <tr>
+                            <td><input id = "bubble" type="submit" value="问题1" name="bubble"></td>
+                            <td><input id = "bubble" type="submit" value="问题2" name="bubble"></td>
+                            <td><input id = "bubble" type="submit" value="问题3" name="bubble"></td>
+                            <td><input id = "bubble" type="submit" value="问题4" name="bubble"></td>
+                        </tr>
+                    </table>
+                    <table id = "table2">
+                        <tr>
+                            <th>
+                                <input id = "input_text" type="text" name="input">
+                            </th>
+                            <th width="60px">
+                                <input id = "submit" type="submit" value="发送">
+                            </th>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form action="/submit_number/"  method="POST">
+            {% csrf_token %} 
+            添加学号:<input type="text" name="number"><input type="submit" value="提交">
+        </form>
+    </body>
+</html>
