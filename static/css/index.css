@@ -1,14 +1,18 @@
 .title{
     width: 100%;
     min-width: 320px;
-    height: 5%;
-    min-height: 50px;
+    height: 45px;
     border: 1px solid #55555542;
+
+    text-align:center;
+
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
 }
 
-.title h3{
-    text-align:center;
+.title a{
+    font-size: 30px;
+    font-weight: 1000;
+    margin: 5px;
 }
 
 .chat_box{
