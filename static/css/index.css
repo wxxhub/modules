@@ -15,7 +15,7 @@
     height:80%;;
     width: 100%;
     min-width: 320px;
-    min-height: 500px;
+    min-height: 600px;
     border: 1px solid #55555542;
     border-bottom: none;
 
@@ -40,6 +40,7 @@
     border: 1px solid #55555542;
     border-top: none;
     margin: 0px;
+    overflow: hidden;
 
     background-color: #5555551f;
     /* box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8); */
@@ -50,18 +51,28 @@
     height: 40px;
     min-width: 320px;
     border: 0px;
+    margin-bottom: 0%;
+    overflow: hidden;
 }
 
 #table1{
     background-color: #ffffff00;
+    margin-bottom: 5px;
+    overflow: hidden;
 }
 
 #table1 td{
     background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 5px;
-    margin: 5px;
+    border-radius: 5px;
+    height: 30px;
+    /* padding: 2px; */
+    /* margin: 2px; */
     box-shadow: 0px 0px 30px rgb(255, 255, 255);
+}
+
+#table1 input{
+    font-size: 20px;
+    font-weight: 800;
 }
 
 #table2{
@@ -89,7 +100,6 @@
 #bubble{
     width: 100%;
     margin: 0px;
-    border-radius: 10px;
     
     border: none;
     background-color: #ffffff00;

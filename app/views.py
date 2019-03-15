@@ -28,4 +28,4 @@ def submitNumber(request):
     file = open(NUMBER_FILE, 'a')
     file.write(message+'\n')
     file.close()
-    return HttpResponseRedirect('https://www.baidu.com/')
+    return HttpResponseRedirect('https://www.wjx.cn/jq/35975635.aspx')
