@@ -100,6 +100,9 @@
     height: 100%;
     margin: 0px;
     padding: 0px;
+
+    font-size: 22px;
+    font-weight: 1000;
 }
 
 #bubble{
