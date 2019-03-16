@@ -181,3 +181,9 @@ body {
 
     padding: 10px;
 }
+
+.botton_line{
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+}
