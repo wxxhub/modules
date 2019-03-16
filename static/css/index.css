@@ -21,19 +21,17 @@ body {
 .title{
     width: 100%;
     /* min-width: 260px; */
-    height: 40px;
+    height: 30px;
     border: 1px solid #55555542;
-    text-align:center;
+    padding-top: 5px;
     position:relative;
-
+    text-align: center;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
 }
 
 .title a{
     font-size: 20px;
     font-weight: 800;
-    position: absolute;
-    bottom:0px; 
 }
 
 .chat_box{
