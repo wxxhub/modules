@@ -23,4 +23,5 @@ urlpatterns = [
     path('index/', views.index),
     path('submit_problem/', views.submitProblem),
     path('submit_number/', views.submitNumber)
+    path('test/', views.test)
 ]

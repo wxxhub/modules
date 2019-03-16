@@ -29,3 +29,6 @@ def submitNumber(request):
     file.write(message+'\n')
     file.close()
     return HttpResponseRedirect('https://www.wjx.cn/jq/35975635.aspx')
+
+def test(request):
+    return render(request, 'test.html')
