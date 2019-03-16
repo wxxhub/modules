@@ -26,7 +26,7 @@ body {
     padding-top: 5px;
     position:relative;
     text-align: center;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 20px rgb(75, 75, 75);
 }
 
 .title a{
