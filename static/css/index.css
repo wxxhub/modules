@@ -111,6 +111,10 @@ body {
     background-color: #eeeeee;
 }
 
+#input_test:focus{
+    border: 0px;
+}
+
 #submit{
     width: 100%;
     height: 90%;
