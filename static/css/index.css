@@ -38,8 +38,8 @@ body {
 .chat_box{
     height: 80%;
     width: 100%;
-    min-width: 280px;
-    min-height: 100px;
+    min-width: 260px;
+    min-height: 50px;
     border: 1px solid #55555542;
     border-bottom: none;
 
