@@ -1,12 +1,12 @@
 html {
-    width: 100%;
+    width: 90%;
     height: 100%;
     display: table;
 }
   
 body {
     display: table-cell;
-    width: 100%;
+    width: 90%;
     height: 100%;
 }  
 
