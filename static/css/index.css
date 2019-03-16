@@ -113,6 +113,7 @@ body {
     margin: 0px;
     padding-bottom: 20px;
     border: 0px;
+    border-bottom: 2px solid #da0e0e;
     size: 5;
     background-color: #eeeeee;
 }
