@@ -43,7 +43,7 @@ body {
     min-height: 30px;
     top: 40px;
     bottom: 90px;
-    position:absolute;
+    position: absolute;
     border-top: 2px solid #dfdfdf;
     background-color: #eeeeee;
 }
@@ -75,10 +75,18 @@ body {
 }
 
 .submit_image{
+    margin-top: 3px;
+}
+
+#submit_button{
     width: 40px;
     height: 40px;
 
-    margin-top: 2px;
+    font-size: 15px;
+    font-weight: 500;
+
+    border: none;
+    background-color: #ffffff;
 }
 
 #table1{
@@ -91,9 +99,10 @@ body {
 #table1 td{
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    height: 30px;
+    height: 20px;
     /* padding: 2px; */
     /* margin: 2px; */
+    padding: 0px;
     box-shadow: 0px 0px 30px rgb(255, 255, 255);
 }
 
@@ -118,6 +127,7 @@ body {
     border: 0px;
     size: 5;
     background-color: #eeeeee;
+    border-radius: 5px;
 }
 
 #input_test:focus{
@@ -130,7 +140,7 @@ body {
     margin: 0px;
     padding: 0px;
 
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 1000;
 
     background-color: #ffffff;
@@ -180,10 +190,12 @@ body {
     border-radius: 10px;
 
     padding: 10px;
+    margin-right: 20px;
 
     display: block;
 
     text-align: left;
+    /* font-size: 20px; */
 }
 
 .botton_line{

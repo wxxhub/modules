@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE  html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta name=”renderer” content=”webkit|ie-comp|ie-stand”/>
         <meta name="viewport" content="width=device-width, height=device-height,initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
         <title>在线客服</title>
         <link type="text/css" rel="styleSheet"  href="/static/css/index.css" />
-        <!-- <script type="text/ecmascript" src="/static/js/index.js"></script> -->
+        <script type="text/javascript" src="/static/js/index.js"></script>
     </head>
     <body>
         <div class="main">
@@ -39,26 +40,26 @@
                 </table> -->
             </div>
             <div class="submit_box">
-                <form action="/submit_problem/"  method="POST">
+                <form action="/submit_problem/" omsubmit='login()' method="POST">
                     {% csrf_token %} 
                     <table id = "table1"  cellspacing="3">
                         <tr>
-                            <td><input id = "bubble" type="submit" value="房源咨询" name="bubble"></td>
-                            <td><input id = "bubble" type="submit" value="订单折扣" name="bubble"></td>
-                            <td><input id = "bubble" type="submit" value="安心售后" name="bubble"></td>
-                            <td><input id = "bubble" type="submit" value="商旅认证" name="bubble"></td>
+                            <td><input id = "bubble" type="button" value="房源咨询" name="bubble"></td>
+                            <td><input id = "bubble" type="button" value="订单折扣" name="bubble"></td>
+                            <td><input id = "bubble" type="button" value="安心售后" name="bubble"></td>
+                            <td><input id = "bubble" type="button" value="商旅认证" name="bubble"></td>
                         </tr>
                     </table>
                     <table id = "table2">
                         <tr>
-                            <th width="60px">
-                                <input name="submit" type="image" src="/static/image/voice.png"  class="submit_image" style="width:35px; height:35px;"/>
+                            <th width="40px">
+                                <image type="image" src="/static/image/voice2.png"  class="submit_image" style="width:35px; height:35px;"/>
                             </th>
                             <th>
-                                <input id = "input_text" type="text" name="input">
+                                <input id = "input_text" type="text" name="input" placeholder="请输入您想表达的内容" onfocus="ss=setInterval(sp,600)" onblur="clearInterval(ss)">
                             </th>
-                            <th width="60px">
-                                <input name="submit" type="image" src="/static/image/plus.jpg"  class="submit_image" style="width:35px; height:35px;"/>
+                            <th width="40px">
+                                <input id="submit_button" type="image" src="/static/image/plus.jpg" class="submit_image" value="发送" disabled="disabled" style="width:35px; height:35px;"/>
                             </th>
                         </tr>
                     </table>

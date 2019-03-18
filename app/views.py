@@ -13,10 +13,7 @@ def index(request):
     return render(request,'index.html')
 
 def submitProblem(request):
-    problem = request.POST.get('bubble')
     message = request.POST.get('input')
-    if problem != None:
-        message = problem
     file = open(CACHE_FILE, 'a')
     file.write(message+'\n')
     file.close()
