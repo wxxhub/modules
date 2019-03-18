@@ -24,4 +24,7 @@ urlpatterns = [
     path('submit_problem/', views.submitProblem),
     path('submit_number/', views.submitNumber),
     path('test/', views.test),
+    path('download/', views.download),
+    path('download_file/', views.responseFile),
+    path('delete_file/', views.deleteFile),
 ]

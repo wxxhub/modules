@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>下载</title>
+    </head>
+    <body>
+        <form action="/download_file/"  method="POST">
+            {% csrf_token %} 
+            <div class="main">
+                下载文件:
+
+                <input type="submit" value="cache.txt" name="download">
+                <input type="submit" value="number.txt" name="download">
+            </div>
+        </form>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form action="/delete_file/"  method="POST">
+            {% csrf_token %} 
+            <div class="main">
+                删除文件数据:
+                <input type="submit" value="cache.txt" name="download" style="background:crimson">
+                <input type="submit" value="number.txt" name="download" style="background:crimson">
+            </div>
+        </form>
+    </body>
+</html>
