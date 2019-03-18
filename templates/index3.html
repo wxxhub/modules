@@ -1,0 +1,70 @@
+<!DOCTYPE  html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta name=”renderer” content=”webkit|ie-comp|ie-stand”/>
+        <meta name="viewport" content="width=device-width, height=device-height,initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+        <title>在线客服</title>
+        <link type="text/css" rel="styleSheet"  href="/static/css/index3.css" />
+        <script type="text/javascript" src="/static/js/index.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="title">
+                <a>在线客服</a>
+            </div>
+            <div class="chat_box" >
+                <table>
+                    <tr>
+                        <td>
+                            <img src="/static/image/server4.jpg" class="server_image">
+                        </td>
+                        <td>
+                            <div class="message">
+                                您好，很高兴为您服务，请问有什么可以帮助您的？
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <!-- <table id="server_table">
+                    <tr>
+                        <td>
+                            <div class="message">
+                                我要投诉啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！！！
+                            </div>
+                        </td>
+                        <td>
+                            <img src="/static/image/user.jpg" class="user_image">
+                        </td>
+                    </tr>
+                </table> -->
+            </div>
+            <div class="submit_box">
+                <table id = "table1"  cellspacing="3">
+                    <tr>
+                        <td><div id = "bubble" type="submit">房源咨询</div></td>
+                        <td><div id = "bubble" type="submit">订单折扣</div></td>
+                        <td><div id = "bubble" type="submit">安心售后</div></td>
+                        <td><div id = "bubble" type="submit">商旅认证</div></td>
+                    </tr>
+                </table>
+                <form action="/submit_problem/" omsubmit='login()' method="POST">
+                    {% csrf_token %} 
+                    <table id = "table2" cellspacing="3">
+                        <tr>
+                            <td width="40px">
+                                <image type="image" src="/static/image/voice2.png"  class="submit_image" style="width:38px; height:38px;"/>
+                            </td>
+                            <td>
+                                <input id = "input_text" type="text" name="input" onfocus="ss=setInterval(sp,600)" onblur="clearInterval(ss)"/>
+                            </td>
+                            <td width="40px">
+                                <input id="submit_button" type="image" src="/static/image/plus.jpg" class="submit_image2" value="发送" disabled="disabled" style="width:38px; height:38px;"/>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

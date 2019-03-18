@@ -27,18 +27,29 @@
                     padding: 0px;
                     margin: 0px;
                 }
+                .mes_data{
+                    visibility: hidden;
+                }
             </style>
     </head>
     <body>
-        <form action="/submit_number/"  method="POST">
+        <form action="/submit_number/" method="POST">
             {% csrf_token %} 
             <div class="main">
                 请输入您的实验编号:
                 <br>
-                <input type="text" name="number">
+                <input type="text"id="number" name="number">
                 <br>
                 <input type="submit" value="提交" class="submit">
             </div>
+            <div class="mes_data">
+                <input type="text" name="message" id="message" value="{{data}}">
+            </div>
         </form>
     </body>
+    <!-- <script>
+        function sub(){
+            number.value ="[" + number.value + ": " + message.value + "]";
+        }
+    </script> -->
 </html>

@@ -21,6 +21,12 @@ from app import views
 urlpatterns = [
     path('', views.welcome),
     path('index/', views.index),
+    path('1/', views.welcome1),
+    path('index1/', views.index1),
+    path('2/', views.welcome2),
+    path('index2/', views.index2),
+    path('3/', views.welcome3),
+    path('index3/', views.index3),
     path('submit_problem/', views.submitProblem),
     path('submit_number/', views.submitNumber),
     path('test/', views.test),
