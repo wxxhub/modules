@@ -37,7 +37,7 @@ def download(request):
 def responseFile(request):
     file_name = request.POST.get('download')
     if not os.path.exists(file_name):
-        mkdir(file_name)
+        return render(request, 'no_data.html')
     file = open(BASE_DIR+'/'+file_name,'rb')
     response =FileResponse(file) 
     response['Content-Type']='application/msword' 
