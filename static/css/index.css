@@ -142,6 +142,8 @@ body {
 
 #input_test:focus{
     border: 0px;
+
+    border-radius: 5px;
 }
 
 #submit{
