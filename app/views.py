@@ -40,7 +40,7 @@ def responseFile(request):
         return render(request, 'no_data.html')
     file = open(BASE_DIR+'/'+file_name,'rb')
     response =FileResponse(file) 
-    response['Content-Type']='application/msword' 
+    response['Content-Type']='text/plain' 
     response['Content-Disposition']='attachment;filename='+file_name 
     return response
 
