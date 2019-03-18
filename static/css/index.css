@@ -85,7 +85,7 @@ body {
     font-size: 15px;
     font-weight: 500;
 
-    float: left;
+    float: right;
 
     right: 0px;
     /* border: 1px solid #ff0000; */
@@ -138,6 +138,8 @@ body {
     border-radius: 5px;
 
     float: left;
+
+    font-size: 16px;
 }
 
 #input_test:focus{
