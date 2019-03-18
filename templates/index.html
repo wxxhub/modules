@@ -16,26 +16,26 @@
             <div class="chat_box" >
                 <table>
                     <tr>
-                        <th>
+                        <td>
                             <img src="/static/image/server4.jpg" class="server_image">
-                        </th>
-                        <th>
+                        </td>
+                        <td>
                             <div class="message">
                                 您好，很高兴为您服务，请问有什么可以帮助您的？
                             </div>
-                        </th>
+                        </td>
                     </tr>
                 </table>
                 <!-- <table id="server_table">
                     <tr>
-                        <th>
+                        <td>
                             <div class="message">
                                 我要投诉啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！！！
                             </div>
-                        </th>
-                        <th>
+                        </td>
+                        <td>
                             <img src="/static/image/user.jpg" class="user_image">
-                        </th>
+                        </td>
                     </tr>
                 </table> -->
             </div>
@@ -52,15 +52,15 @@
                     {% csrf_token %} 
                     <table id = "table2" cellspacing="3">
                         <tr>
-                            <th width="40px">
+                            <td width="40px">
                                 <image type="image" src="/static/image/voice2.png"  class="submit_image" style="width:38px; height:38px;"/>
-                            </th>
-                            <th>
+                            </td>
+                            <td left="80px" right="80px">
                                 <input id = "input_text" type="text" name="input" placeholder="请输入您想表达的内容" onfocus="ss=setInterval(sp,600)" onblur="clearInterval(ss)"/>
-                            </th>
-                            <th width="40px">
+                            </td>
+                            <td width="40px">
                                 <input id="submit_button" type="image" src="/static/image/plus.jpg" class="submit_image" value="发送" disabled="disabled" style="width:38px; height:38px;"/>
-                            </th>
+                            </td>
                         </tr>
                     </table>
                 </form>
