@@ -85,11 +85,11 @@ body {
     font-size: 15px;
     font-weight: 500;
 
-    border: none;
+    right: 0px;
     /* border: 1px solid #ff0000; */
     background-color: #ffffff;
-
-    margin-right: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 #table1{
