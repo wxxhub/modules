@@ -96,6 +96,8 @@ body {
     margin-bottom: 5px;
     height: 30px;
     overflow: hidden;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 #table1 td{
