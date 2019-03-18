@@ -79,6 +79,11 @@ body {
     /* border: 1px solid #ff0000; */
 }
 
+.submit_image2{
+    float: right;
+    /* border: 1px solid #ff0000; */
+}
+
 #submit_button{
     width: 40px;
     height: 40px;
@@ -89,7 +94,7 @@ body {
     background-color: #ffffff;
     margin-left: 3px;
 
-    float: left;
+    float: right;
 
     /* border: 1px solid #ff0000; */
 }
