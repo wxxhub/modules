@@ -88,6 +88,8 @@ body {
     /* border: none; */
     border: 1px solid #ff0000;
     background-color: #ffffff;
+
+    margin-right: 0px;
 }
 
 #table1{
