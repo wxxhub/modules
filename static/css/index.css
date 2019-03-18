@@ -85,10 +85,9 @@ body {
     font-size: 15px;
     font-weight: 500;
 
-    border: none;
+    /* border: none; */
+    border: 1px solid #ff0000;
     background-color: #ffffff;
-
-    text-align: center;
 }
 
 #table1{
