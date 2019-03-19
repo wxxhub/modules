@@ -55,7 +55,7 @@ body {
 
 .submit_box{
     width: 100%;
-    height: 110px;
+    height: 109px;
     /* min-width: 260px; */
     /* border-bottom: 1px solid #ffffff; */
     border-top: none;
@@ -142,7 +142,7 @@ body {
 
     float: left;
 
-    font-size: 16px;
+    24px;
 
     right: 100px;
 
